@@ -126,7 +126,9 @@ class _ItemPageState extends ConsumerState<_ItemPage> {
                   onTap: () => audio.playFirstAvailable(
                       [item.sound, item.nameAudio['en']]),
                   child: ContentImage(
-                    assetPath: _showPhoto ? item.photo : item.illustration,
+                    candidates: _showPhoto
+                        ? [item.photo, item.illustration]
+                        : [item.illustration, item.photo],
                     iconName: item.icon,
                     fallbackText: enName,
                     accentColor: module.color,
@@ -157,31 +159,31 @@ class _ItemPageState extends ConsumerState<_ItemPage> {
           ),
         ),
         const SizedBox(height: 8),
-        // Trilingual name chips — tap a language to hear it.
+        // Trilingual name chips — tap a language to hear it. Wrap keeps
+        // long names (e.g. "سيارة إطفاء") from overflowing the row.
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+          child: Wrap(
+            alignment: WrapAlignment.center,
+            spacing: 12,
+            runSpacing: 10,
             children: [
               for (final lang in const ['en', 'bn', 'ar'])
                 if (item.names[lang] != null)
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 6),
-                    child: BigTapButton(
-                      semanticLabel: item.names[lang]!,
-                      minSize: 60,
-                      color: Palette.cream,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 18, vertical: 10),
-                      onTap: () => audio.playFirstAvailable(
-                          [item.nameAudio[lang], item.nameAudio['en']]),
-                      child: Text(
-                        item.names[lang]!,
-                        style: TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.bold,
-                          color: module.color,
-                        ),
+                  BigTapButton(
+                    semanticLabel: item.names[lang]!,
+                    minSize: 60,
+                    color: Palette.cream,
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 18, vertical: 10),
+                    onTap: () => audio.playFirstAvailable(
+                        [item.nameAudio[lang], item.nameAudio['en']]),
+                    child: Text(
+                      item.names[lang]!,
+                      style: TextStyle(
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold,
+                        color: module.color,
                       ),
                     ),
                   ),

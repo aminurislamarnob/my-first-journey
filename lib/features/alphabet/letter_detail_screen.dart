@@ -291,7 +291,7 @@ class _ExampleCardState extends ConsumerState<_ExampleCard> {
             child: FittedBox(
               fit: BoxFit.scaleDown,
               child: ContentImage(
-                assetPath: example.image,
+                candidates: [example.image],
                 fallbackText: example.word,
                 accentColor: module.color,
                 softColor: module.softColor,

@@ -1,15 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../app/palette.dart';
 import 'icon_registry.dart';
 
-/// Renders a content image with layered fallbacks, because manifests are
-/// written before real photos exist: asset image → registry icon →
-/// first-letter art. The fallback keeps the module's color identity.
-class ContentImage extends StatelessWidget {
+/// Set of all bundled asset paths, used to skip references to assets that
+/// don't exist yet (manifests are written ahead of real photos/audio).
+final assetIndexProvider = FutureProvider<Set<String>>((ref) async {
+  final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+  return manifest.listAssets().toSet();
+});
+
+/// Renders the first existing image among [candidates] (PNG photos or SVG
+/// illustrations), falling back to a registry icon, then letter art. The
+/// fallback keeps the module's color identity. Never emoji.
+class ContentImage extends ConsumerWidget {
   const ContentImage({
     super.key,
-    this.assetPath,
+    this.candidates = const [],
     this.iconName,
     required this.fallbackText,
     required this.accentColor,
@@ -17,7 +27,8 @@ class ContentImage extends StatelessWidget {
     this.size,
   });
 
-  final String? assetPath;
+  /// Asset paths in preference order; missing ones are skipped.
+  final List<String?> candidates;
   final String? iconName;
 
   /// Word shown in letter-art fallback (first character is featured).
@@ -27,16 +38,22 @@ class ContentImage extends StatelessWidget {
   final double? size;
 
   @override
-  Widget build(BuildContext context) {
-    final path = assetPath;
-    if (path != null && path.endsWith('.png')) {
-      return Image.asset(
-        path,
-        width: size,
-        height: size,
-        fit: BoxFit.cover,
-        errorBuilder: (_, _, _) => _fallback(context),
-      );
+  Widget build(BuildContext context, WidgetRef ref) {
+    final index = ref.watch(assetIndexProvider).value;
+    if (index != null) {
+      for (final path in candidates) {
+        if (path == null || !index.contains(path)) continue;
+        if (path.endsWith('.svg')) {
+          return SvgPicture.asset(path, width: size, height: size);
+        }
+        return Image.asset(
+          path,
+          width: size,
+          height: size,
+          fit: BoxFit.cover,
+          errorBuilder: (_, _, _) => _fallback(context),
+        );
+      }
     }
     return _fallback(context);
   }
@@ -58,15 +75,15 @@ class ContentImage extends StatelessWidget {
       child: Center(
         child: icon ??
             Text(
-                fallbackText.isEmpty
-                    ? '?'
-                    : fallbackText.characters.first.toUpperCase(),
-                style: TextStyle(
-                  fontSize: dimension * 0.5,
-                  fontWeight: FontWeight.bold,
-                  color: accentColor,
-                ),
+              fallbackText.isEmpty
+                  ? '?'
+                  : fallbackText.characters.first.toUpperCase(),
+              style: TextStyle(
+                fontSize: dimension * 0.5,
+                fontWeight: FontWeight.bold,
+                color: accentColor,
               ),
+            ),
       ),
     );
   }

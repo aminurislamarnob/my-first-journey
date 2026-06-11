@@ -79,6 +79,7 @@ flutter:
     - assets/content/english/
     - assets/content/vehicles/
     - assets/images/modules/
+    - assets/images/vehicles/
     - assets/audio/en/letters/
     - assets/audio/en/words/
     - assets/audio/en/vehicles/

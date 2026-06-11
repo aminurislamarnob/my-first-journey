@@ -207,7 +207,8 @@ class _ItemCard extends StatelessWidget {
               Expanded(
                 child: Center(
                   child: ContentImage(
-                    assetPath: item.photo,
+                    // Cartoon-first on the grid; photos slot in later.
+                    candidates: [item.illustration, item.photo],
                     iconName: item.icon,
                     fallbackText: item.names.resolve('en'),
                     accentColor: module.color,
