@@ -44,6 +44,9 @@ class _BigTapButtonState extends ConsumerState<BigTapButton> {
     return Semantics(
       label: widget.semanticLabel,
       button: true,
+      // The label always mirrors the visible content; merging descendant
+      // text would read e.g. "Apple A p p l e" under a screen reader.
+      excludeSemantics: true,
       child: GestureDetector(
         onTapDown: (_) => _setPressed(true),
         onTapCancel: () => _setPressed(false),

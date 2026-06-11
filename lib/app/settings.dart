@@ -11,11 +11,15 @@ final sharedPreferencesProvider = Provider<SharedPreferences>(
 
 class LocaleNotifier extends Notifier<Locale> {
   static const _key = 'app_locale';
+  static const _supported = {'en', 'bn', 'ar'};
 
   @override
   Locale build() {
     final saved = ref.read(sharedPreferencesProvider).getString(_key);
-    return saved == null ? const Locale('en') : Locale(saved);
+    if (saved != null) return Locale(saved);
+    // First launch: follow the device language when we support it.
+    final system = PlatformDispatcher.instance.locale.languageCode;
+    return Locale(_supported.contains(system) ? system : 'en');
   }
 
   void set(Locale locale) {

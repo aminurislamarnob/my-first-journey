@@ -1,5 +1,12 @@
 # Little Letters — Flutter Toddler Learning App: Implementation Plan
 
+> **Status (2026-06-11):** M0–M4 complete — foundation, core services, home,
+> English alphabet (alphabet engine), Vehicles (flashcard engine). 12 unit/
+> widget tests + 1 device integration test green; verified on iPhone
+> simulator in en/বাংলা/العربية incl. RTL. Next up: M5 Bangla, M6 Arabic.
+> Placeholder TTS audio and icon-art are in place pending real recordings
+> and photos.
+
 ## Context
 
 Build "Little Letters" (per `/Users/aiarnob/Downloads/little-letters-one-pager.html`): a trilingual learning app for kids ages 3–8 teaching **English, Bangla, and Arabic alphabets** plus **Animals, Fruits, and Vehicles**, with practice games, rewards, and a PIN-gated Parent Zone. Ad-free, offline-first, COPPA/GDPR-K-minded. Target: iOS 14+, Android 8+, phone + tablet.
