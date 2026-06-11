@@ -1,0 +1,727 @@
+{
+  "id": "english",
+  "type": "alphabet",
+  "title": {
+    "en": "English Alphabets",
+    "bn": "ইংরেজি বর্ণমালা",
+    "ar": "الحروف الإنجليزية"
+  },
+  "color": "coral",
+  "direction": "ltr",
+  "script": "latin",
+  "hasCaseToggle": true,
+  "tracks": [
+    {
+      "id": "letters",
+      "title": {
+        "en": "Letters",
+        "bn": "বর্ণ",
+        "ar": "حروف"
+      },
+      "letters": [
+        {
+          "id": "a",
+          "glyph": "A",
+          "lowercase": "a",
+          "name": "A",
+          "audio": {
+            "name": "assets/audio/en/letters/a_name.m4a",
+            "phonic": "assets/audio/en/letters/a_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Apple",
+              "image": "assets/images/english/apple.png",
+              "audio": "assets/audio/en/words/apple.m4a"
+            },
+            {
+              "word": "Ant",
+              "image": "assets/images/english/ant.png",
+              "audio": "assets/audio/en/words/ant.m4a"
+            },
+            {
+              "word": "Airplane",
+              "image": "assets/images/english/airplane.png",
+              "audio": "assets/audio/en/words/airplane.m4a"
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "glyph": "B",
+          "lowercase": "b",
+          "name": "B",
+          "audio": {
+            "name": "assets/audio/en/letters/b_name.m4a",
+            "phonic": "assets/audio/en/letters/b_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Ball",
+              "image": "assets/images/english/ball.png",
+              "audio": "assets/audio/en/words/ball.m4a"
+            },
+            {
+              "word": "Banana",
+              "image": "assets/images/english/banana.png",
+              "audio": "assets/audio/en/words/banana.m4a"
+            },
+            {
+              "word": "Bear",
+              "image": "assets/images/english/bear.png",
+              "audio": "assets/audio/en/words/bear.m4a"
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "glyph": "C",
+          "lowercase": "c",
+          "name": "C",
+          "audio": {
+            "name": "assets/audio/en/letters/c_name.m4a",
+            "phonic": "assets/audio/en/letters/c_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Cat",
+              "image": "assets/images/english/cat.png",
+              "audio": "assets/audio/en/words/cat.m4a"
+            },
+            {
+              "word": "Car",
+              "image": "assets/images/english/car.png",
+              "audio": "assets/audio/en/words/car.m4a"
+            },
+            {
+              "word": "Cake",
+              "image": "assets/images/english/cake.png",
+              "audio": "assets/audio/en/words/cake.m4a"
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "glyph": "D",
+          "lowercase": "d",
+          "name": "D",
+          "audio": {
+            "name": "assets/audio/en/letters/d_name.m4a",
+            "phonic": "assets/audio/en/letters/d_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Dog",
+              "image": "assets/images/english/dog.png",
+              "audio": "assets/audio/en/words/dog.m4a"
+            },
+            {
+              "word": "Duck",
+              "image": "assets/images/english/duck.png",
+              "audio": "assets/audio/en/words/duck.m4a"
+            },
+            {
+              "word": "Drum",
+              "image": "assets/images/english/drum.png",
+              "audio": "assets/audio/en/words/drum.m4a"
+            }
+          ]
+        },
+        {
+          "id": "e",
+          "glyph": "E",
+          "lowercase": "e",
+          "name": "E",
+          "audio": {
+            "name": "assets/audio/en/letters/e_name.m4a",
+            "phonic": "assets/audio/en/letters/e_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Elephant",
+              "image": "assets/images/english/elephant.png",
+              "audio": "assets/audio/en/words/elephant.m4a"
+            },
+            {
+              "word": "Egg",
+              "image": "assets/images/english/egg.png",
+              "audio": "assets/audio/en/words/egg.m4a"
+            },
+            {
+              "word": "Ear",
+              "image": "assets/images/english/ear.png",
+              "audio": "assets/audio/en/words/ear.m4a"
+            }
+          ]
+        },
+        {
+          "id": "f",
+          "glyph": "F",
+          "lowercase": "f",
+          "name": "F",
+          "audio": {
+            "name": "assets/audio/en/letters/f_name.m4a",
+            "phonic": "assets/audio/en/letters/f_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Fish",
+              "image": "assets/images/english/fish.png",
+              "audio": "assets/audio/en/words/fish.m4a"
+            },
+            {
+              "word": "Frog",
+              "image": "assets/images/english/frog.png",
+              "audio": "assets/audio/en/words/frog.m4a"
+            },
+            {
+              "word": "Flower",
+              "image": "assets/images/english/flower.png",
+              "audio": "assets/audio/en/words/flower.m4a"
+            }
+          ]
+        },
+        {
+          "id": "g",
+          "glyph": "G",
+          "lowercase": "g",
+          "name": "G",
+          "audio": {
+            "name": "assets/audio/en/letters/g_name.m4a",
+            "phonic": "assets/audio/en/letters/g_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Goat",
+              "image": "assets/images/english/goat.png",
+              "audio": "assets/audio/en/words/goat.m4a"
+            },
+            {
+              "word": "Grapes",
+              "image": "assets/images/english/grapes.png",
+              "audio": "assets/audio/en/words/grapes.m4a"
+            },
+            {
+              "word": "Gift",
+              "image": "assets/images/english/gift.png",
+              "audio": "assets/audio/en/words/gift.m4a"
+            }
+          ]
+        },
+        {
+          "id": "h",
+          "glyph": "H",
+          "lowercase": "h",
+          "name": "H",
+          "audio": {
+            "name": "assets/audio/en/letters/h_name.m4a",
+            "phonic": "assets/audio/en/letters/h_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Hat",
+              "image": "assets/images/english/hat.png",
+              "audio": "assets/audio/en/words/hat.m4a"
+            },
+            {
+              "word": "Horse",
+              "image": "assets/images/english/horse.png",
+              "audio": "assets/audio/en/words/horse.m4a"
+            },
+            {
+              "word": "House",
+              "image": "assets/images/english/house.png",
+              "audio": "assets/audio/en/words/house.m4a"
+            }
+          ]
+        },
+        {
+          "id": "i",
+          "glyph": "I",
+          "lowercase": "i",
+          "name": "I",
+          "audio": {
+            "name": "assets/audio/en/letters/i_name.m4a",
+            "phonic": "assets/audio/en/letters/i_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Ice Cream",
+              "image": "assets/images/english/ice_cream.png",
+              "audio": "assets/audio/en/words/ice_cream.m4a"
+            },
+            {
+              "word": "Igloo",
+              "image": "assets/images/english/igloo.png",
+              "audio": "assets/audio/en/words/igloo.m4a"
+            },
+            {
+              "word": "Insect",
+              "image": "assets/images/english/insect.png",
+              "audio": "assets/audio/en/words/insect.m4a"
+            }
+          ]
+        },
+        {
+          "id": "j",
+          "glyph": "J",
+          "lowercase": "j",
+          "name": "J",
+          "audio": {
+            "name": "assets/audio/en/letters/j_name.m4a",
+            "phonic": "assets/audio/en/letters/j_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Juice",
+              "image": "assets/images/english/juice.png",
+              "audio": "assets/audio/en/words/juice.m4a"
+            },
+            {
+              "word": "Jug",
+              "image": "assets/images/english/jug.png",
+              "audio": "assets/audio/en/words/jug.m4a"
+            },
+            {
+              "word": "Jellyfish",
+              "image": "assets/images/english/jellyfish.png",
+              "audio": "assets/audio/en/words/jellyfish.m4a"
+            }
+          ]
+        },
+        {
+          "id": "k",
+          "glyph": "K",
+          "lowercase": "k",
+          "name": "K",
+          "audio": {
+            "name": "assets/audio/en/letters/k_name.m4a",
+            "phonic": "assets/audio/en/letters/k_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Kite",
+              "image": "assets/images/english/kite.png",
+              "audio": "assets/audio/en/words/kite.m4a"
+            },
+            {
+              "word": "King",
+              "image": "assets/images/english/king.png",
+              "audio": "assets/audio/en/words/king.m4a"
+            },
+            {
+              "word": "Key",
+              "image": "assets/images/english/key.png",
+              "audio": "assets/audio/en/words/key.m4a"
+            }
+          ]
+        },
+        {
+          "id": "l",
+          "glyph": "L",
+          "lowercase": "l",
+          "name": "L",
+          "audio": {
+            "name": "assets/audio/en/letters/l_name.m4a",
+            "phonic": "assets/audio/en/letters/l_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Lion",
+              "image": "assets/images/english/lion.png",
+              "audio": "assets/audio/en/words/lion.m4a"
+            },
+            {
+              "word": "Leaf",
+              "image": "assets/images/english/leaf.png",
+              "audio": "assets/audio/en/words/leaf.m4a"
+            },
+            {
+              "word": "Lemon",
+              "image": "assets/images/english/lemon.png",
+              "audio": "assets/audio/en/words/lemon.m4a"
+            }
+          ]
+        },
+        {
+          "id": "m",
+          "glyph": "M",
+          "lowercase": "m",
+          "name": "M",
+          "audio": {
+            "name": "assets/audio/en/letters/m_name.m4a",
+            "phonic": "assets/audio/en/letters/m_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Mango",
+              "image": "assets/images/english/mango.png",
+              "audio": "assets/audio/en/words/mango.m4a"
+            },
+            {
+              "word": "Monkey",
+              "image": "assets/images/english/monkey.png",
+              "audio": "assets/audio/en/words/monkey.m4a"
+            },
+            {
+              "word": "Moon",
+              "image": "assets/images/english/moon.png",
+              "audio": "assets/audio/en/words/moon.m4a"
+            }
+          ]
+        },
+        {
+          "id": "n",
+          "glyph": "N",
+          "lowercase": "n",
+          "name": "N",
+          "audio": {
+            "name": "assets/audio/en/letters/n_name.m4a",
+            "phonic": "assets/audio/en/letters/n_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Nest",
+              "image": "assets/images/english/nest.png",
+              "audio": "assets/audio/en/words/nest.m4a"
+            },
+            {
+              "word": "Nose",
+              "image": "assets/images/english/nose.png",
+              "audio": "assets/audio/en/words/nose.m4a"
+            },
+            {
+              "word": "Net",
+              "image": "assets/images/english/net.png",
+              "audio": "assets/audio/en/words/net.m4a"
+            }
+          ]
+        },
+        {
+          "id": "o",
+          "glyph": "O",
+          "lowercase": "o",
+          "name": "O",
+          "audio": {
+            "name": "assets/audio/en/letters/o_name.m4a",
+            "phonic": "assets/audio/en/letters/o_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Orange",
+              "image": "assets/images/english/orange.png",
+              "audio": "assets/audio/en/words/orange.m4a"
+            },
+            {
+              "word": "Owl",
+              "image": "assets/images/english/owl.png",
+              "audio": "assets/audio/en/words/owl.m4a"
+            },
+            {
+              "word": "Onion",
+              "image": "assets/images/english/onion.png",
+              "audio": "assets/audio/en/words/onion.m4a"
+            }
+          ]
+        },
+        {
+          "id": "p",
+          "glyph": "P",
+          "lowercase": "p",
+          "name": "P",
+          "audio": {
+            "name": "assets/audio/en/letters/p_name.m4a",
+            "phonic": "assets/audio/en/letters/p_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Parrot",
+              "image": "assets/images/english/parrot.png",
+              "audio": "assets/audio/en/words/parrot.m4a"
+            },
+            {
+              "word": "Pencil",
+              "image": "assets/images/english/pencil.png",
+              "audio": "assets/audio/en/words/pencil.m4a"
+            },
+            {
+              "word": "Pizza",
+              "image": "assets/images/english/pizza.png",
+              "audio": "assets/audio/en/words/pizza.m4a"
+            }
+          ]
+        },
+        {
+          "id": "q",
+          "glyph": "Q",
+          "lowercase": "q",
+          "name": "Q",
+          "audio": {
+            "name": "assets/audio/en/letters/q_name.m4a",
+            "phonic": "assets/audio/en/letters/q_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Queen",
+              "image": "assets/images/english/queen.png",
+              "audio": "assets/audio/en/words/queen.m4a"
+            },
+            {
+              "word": "Quilt",
+              "image": "assets/images/english/quilt.png",
+              "audio": "assets/audio/en/words/quilt.m4a"
+            },
+            {
+              "word": "Question",
+              "image": "assets/images/english/question.png",
+              "audio": "assets/audio/en/words/question.m4a"
+            }
+          ]
+        },
+        {
+          "id": "r",
+          "glyph": "R",
+          "lowercase": "r",
+          "name": "R",
+          "audio": {
+            "name": "assets/audio/en/letters/r_name.m4a",
+            "phonic": "assets/audio/en/letters/r_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Rabbit",
+              "image": "assets/images/english/rabbit.png",
+              "audio": "assets/audio/en/words/rabbit.m4a"
+            },
+            {
+              "word": "Rainbow",
+              "image": "assets/images/english/rainbow.png",
+              "audio": "assets/audio/en/words/rainbow.m4a"
+            },
+            {
+              "word": "Ring",
+              "image": "assets/images/english/ring.png",
+              "audio": "assets/audio/en/words/ring.m4a"
+            }
+          ]
+        },
+        {
+          "id": "s",
+          "glyph": "S",
+          "lowercase": "s",
+          "name": "S",
+          "audio": {
+            "name": "assets/audio/en/letters/s_name.m4a",
+            "phonic": "assets/audio/en/letters/s_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Sun",
+              "image": "assets/images/english/sun.png",
+              "audio": "assets/audio/en/words/sun.m4a"
+            },
+            {
+              "word": "Star",
+              "image": "assets/images/english/star.png",
+              "audio": "assets/audio/en/words/star.m4a"
+            },
+            {
+              "word": "Snake",
+              "image": "assets/images/english/snake.png",
+              "audio": "assets/audio/en/words/snake.m4a"
+            }
+          ]
+        },
+        {
+          "id": "t",
+          "glyph": "T",
+          "lowercase": "t",
+          "name": "T",
+          "audio": {
+            "name": "assets/audio/en/letters/t_name.m4a",
+            "phonic": "assets/audio/en/letters/t_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Tiger",
+              "image": "assets/images/english/tiger.png",
+              "audio": "assets/audio/en/words/tiger.m4a"
+            },
+            {
+              "word": "Train",
+              "image": "assets/images/english/train.png",
+              "audio": "assets/audio/en/words/train.m4a"
+            },
+            {
+              "word": "Tree",
+              "image": "assets/images/english/tree.png",
+              "audio": "assets/audio/en/words/tree.m4a"
+            }
+          ]
+        },
+        {
+          "id": "u",
+          "glyph": "U",
+          "lowercase": "u",
+          "name": "U",
+          "audio": {
+            "name": "assets/audio/en/letters/u_name.m4a",
+            "phonic": "assets/audio/en/letters/u_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Umbrella",
+              "image": "assets/images/english/umbrella.png",
+              "audio": "assets/audio/en/words/umbrella.m4a"
+            },
+            {
+              "word": "Unicorn",
+              "image": "assets/images/english/unicorn.png",
+              "audio": "assets/audio/en/words/unicorn.m4a"
+            },
+            {
+              "word": "Uniform",
+              "image": "assets/images/english/uniform.png",
+              "audio": "assets/audio/en/words/uniform.m4a"
+            }
+          ]
+        },
+        {
+          "id": "v",
+          "glyph": "V",
+          "lowercase": "v",
+          "name": "V",
+          "audio": {
+            "name": "assets/audio/en/letters/v_name.m4a",
+            "phonic": "assets/audio/en/letters/v_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Van",
+              "image": "assets/images/english/van.png",
+              "audio": "assets/audio/en/words/van.m4a"
+            },
+            {
+              "word": "Violin",
+              "image": "assets/images/english/violin.png",
+              "audio": "assets/audio/en/words/violin.m4a"
+            },
+            {
+              "word": "Violet",
+              "image": "assets/images/english/violet.png",
+              "audio": "assets/audio/en/words/violet.m4a"
+            }
+          ]
+        },
+        {
+          "id": "w",
+          "glyph": "W",
+          "lowercase": "w",
+          "name": "W",
+          "audio": {
+            "name": "assets/audio/en/letters/w_name.m4a",
+            "phonic": "assets/audio/en/letters/w_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Watch",
+              "image": "assets/images/english/watch.png",
+              "audio": "assets/audio/en/words/watch.m4a"
+            },
+            {
+              "word": "Water",
+              "image": "assets/images/english/water.png",
+              "audio": "assets/audio/en/words/water.m4a"
+            },
+            {
+              "word": "Whale",
+              "image": "assets/images/english/whale.png",
+              "audio": "assets/audio/en/words/whale.m4a"
+            }
+          ]
+        },
+        {
+          "id": "x",
+          "glyph": "X",
+          "lowercase": "x",
+          "name": "X",
+          "audio": {
+            "name": "assets/audio/en/letters/x_name.m4a",
+            "phonic": "assets/audio/en/letters/x_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "X-ray",
+              "image": "assets/images/english/x_ray.png",
+              "audio": "assets/audio/en/words/x_ray.m4a"
+            },
+            {
+              "word": "Xylophone",
+              "image": "assets/images/english/xylophone.png",
+              "audio": "assets/audio/en/words/xylophone.m4a"
+            },
+            {
+              "word": "Box",
+              "image": "assets/images/english/box.png",
+              "audio": "assets/audio/en/words/box.m4a"
+            }
+          ]
+        },
+        {
+          "id": "y",
+          "glyph": "Y",
+          "lowercase": "y",
+          "name": "Y",
+          "audio": {
+            "name": "assets/audio/en/letters/y_name.m4a",
+            "phonic": "assets/audio/en/letters/y_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Yak",
+              "image": "assets/images/english/yak.png",
+              "audio": "assets/audio/en/words/yak.m4a"
+            },
+            {
+              "word": "Yarn",
+              "image": "assets/images/english/yarn.png",
+              "audio": "assets/audio/en/words/yarn.m4a"
+            },
+            {
+              "word": "Yo-yo",
+              "image": "assets/images/english/yo_yo.png",
+              "audio": "assets/audio/en/words/yo_yo.m4a"
+            }
+          ]
+        },
+        {
+          "id": "z",
+          "glyph": "Z",
+          "lowercase": "z",
+          "name": "Z",
+          "audio": {
+            "name": "assets/audio/en/letters/z_name.m4a",
+            "phonic": "assets/audio/en/letters/z_phonic.m4a"
+          },
+          "examples": [
+            {
+              "word": "Zebra",
+              "image": "assets/images/english/zebra.png",
+              "audio": "assets/audio/en/words/zebra.m4a"
+            },
+            {
+              "word": "Zoo",
+              "image": "assets/images/english/zoo.png",
+              "audio": "assets/audio/en/words/zoo.m4a"
+            },
+            {
+              "word": "Zip",
+              "image": "assets/images/english/zip.png",
+              "audio": "assets/audio/en/words/zip.m4a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

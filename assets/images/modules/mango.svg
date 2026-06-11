@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- ripe mango with leaf -->
+  <g>
+    <!-- stem -->
+    <path d="M62 24 Q60 14 52 10" fill="none" stroke="#2E8B6A" stroke-width="4" stroke-linecap="round"/>
+    <!-- leaf -->
+    <path d="M64 20 Q86 8 96 22 Q82 34 64 24 Z" fill="#2E8B6A"/>
+    <path d="M66 22 Q82 16 92 22" fill="none" stroke="#D8F0E2" stroke-width="2" stroke-linecap="round"/>
+    <!-- fruit body -->
+    <path d="M62 26
+             C 88 26 104 48 100 72
+             C 96 96 72 110 52 104
+             C 28 97 18 70 30 48
+             C 38 33 48 26 62 26 Z" fill="#C84777"/>
+    <path d="M62 26
+             C 84 28 98 50 94 70
+             C 90 90 70 102 54 98" fill="#FF6B4A" opacity="0.85"/>
+    <!-- blush highlight -->
+    <ellipse cx="48" cy="56" rx="12" ry="18" fill="#FFB627" opacity="0.7" transform="rotate(-20 48 56)"/>
+    <ellipse cx="42" cy="48" rx="4" ry="7" fill="#FFF4E0" opacity="0.8" transform="rotate(-25 42 48)"/>
+  </g>
+</svg>

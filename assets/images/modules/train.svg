@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- cheerful toy locomotive, side view -->
+  <g>
+    <!-- cab -->
+    <rect x="14" y="34" width="34" height="44" rx="8" fill="#7A4FBF"/>
+    <rect x="20" y="40" width="22" height="18" rx="5" fill="#ECE2FA"/>
+    <!-- boiler -->
+    <rect x="44" y="50" width="56" height="28" rx="12" fill="#9B6FE0"/>
+    <!-- chimney -->
+    <rect x="78" y="32" width="12" height="20" rx="4" fill="#7A4FBF"/>
+    <circle cx="84" cy="26" r="7" fill="#ECE2FA"/>
+    <!-- base -->
+    <rect x="10" y="76" width="96" height="10" rx="5" fill="#5B3A94"/>
+    <!-- wheels -->
+    <circle cx="32" cy="92" r="11" fill="#1A1530"/>
+    <circle cx="32" cy="92" r="5" fill="#FFB627"/>
+    <circle cx="66" cy="92" r="11" fill="#1A1530"/>
+    <circle cx="66" cy="92" r="5" fill="#FFB627"/>
+    <circle cx="94" cy="92" r="9" fill="#1A1530"/>
+    <circle cx="94" cy="92" r="4" fill="#FFB627"/>
+    <!-- cowcatcher -->
+    <path d="M100 76 L112 86 L100 86 Z" fill="#FFB627"/>
+    <!-- headlight -->
+    <circle cx="102" cy="60" r="5" fill="#FFF4E0"/>
+  </g>
+</svg>

@@ -1,0 +1,608 @@
+{
+  "id": "vehicles",
+  "type": "flashcards",
+  "title": {
+    "en": "Vehicles",
+    "bn": "যানবাহন",
+    "ar": "المركبات"
+  },
+  "color": "grape",
+  "groups": [
+    {
+      "id": "road",
+      "title": {
+        "en": "Road",
+        "bn": "সড়ক",
+        "ar": "الطرق"
+      },
+      "icon": "road"
+    },
+    {
+      "id": "air",
+      "title": {
+        "en": "Air",
+        "bn": "আকাশ",
+        "ar": "الجو"
+      },
+      "icon": "airplane"
+    },
+    {
+      "id": "water",
+      "title": {
+        "en": "Water",
+        "bn": "পানি",
+        "ar": "الماء"
+      },
+      "icon": "boat"
+    },
+    {
+      "id": "rail",
+      "title": {
+        "en": "Rail",
+        "bn": "রেল",
+        "ar": "السكك"
+      },
+      "icon": "train"
+    },
+    {
+      "id": "work",
+      "title": {
+        "en": "Work",
+        "bn": "কাজ",
+        "ar": "العمل"
+      },
+      "icon": "tractor"
+    },
+    {
+      "id": "emergency",
+      "title": {
+        "en": "Emergency",
+        "bn": "জরুরি",
+        "ar": "الطوارئ"
+      },
+      "icon": "ambulance"
+    }
+  ],
+  "items": [
+    {
+      "id": "car",
+      "group": "road",
+      "names": {
+        "en": "Car",
+        "bn": "গাড়ি",
+        "ar": "سيارة"
+      },
+      "icon": "car",
+      "photo": "assets/images/vehicles/car_photo.png",
+      "illustration": "assets/images/vehicles/car_art.svg",
+      "sound": "assets/audio/sfx/vehicles/car.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/car.m4a",
+        "bn": "assets/audio/bn/vehicles/car.m4a",
+        "ar": "assets/audio/ar/vehicles/car.m4a"
+      }
+    },
+    {
+      "id": "bus",
+      "group": "road",
+      "names": {
+        "en": "Bus",
+        "bn": "বাস",
+        "ar": "حافلة"
+      },
+      "icon": "bus",
+      "photo": "assets/images/vehicles/bus_photo.png",
+      "illustration": "assets/images/vehicles/bus_art.svg",
+      "sound": "assets/audio/sfx/vehicles/bus.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/bus.m4a",
+        "bn": "assets/audio/bn/vehicles/bus.m4a",
+        "ar": "assets/audio/ar/vehicles/bus.m4a"
+      }
+    },
+    {
+      "id": "school_bus",
+      "group": "road",
+      "names": {
+        "en": "School Bus",
+        "bn": "স্কুল বাস",
+        "ar": "حافلة مدرسية"
+      },
+      "icon": "school_bus",
+      "photo": "assets/images/vehicles/school_bus_photo.png",
+      "illustration": "assets/images/vehicles/school_bus_art.svg",
+      "sound": "assets/audio/sfx/vehicles/school_bus.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/school_bus.m4a",
+        "bn": "assets/audio/bn/vehicles/school_bus.m4a",
+        "ar": "assets/audio/ar/vehicles/school_bus.m4a"
+      }
+    },
+    {
+      "id": "taxi",
+      "group": "road",
+      "names": {
+        "en": "Taxi",
+        "bn": "ট্যাক্সি",
+        "ar": "سيارة أجرة"
+      },
+      "icon": "taxi",
+      "photo": "assets/images/vehicles/taxi_photo.png",
+      "illustration": "assets/images/vehicles/taxi_art.svg",
+      "sound": "assets/audio/sfx/vehicles/taxi.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/taxi.m4a",
+        "bn": "assets/audio/bn/vehicles/taxi.m4a",
+        "ar": "assets/audio/ar/vehicles/taxi.m4a"
+      }
+    },
+    {
+      "id": "motorcycle",
+      "group": "road",
+      "names": {
+        "en": "Motorcycle",
+        "bn": "মোটরসাইকেল",
+        "ar": "دراجة نارية"
+      },
+      "icon": "motorcycle",
+      "photo": "assets/images/vehicles/motorcycle_photo.png",
+      "illustration": "assets/images/vehicles/motorcycle_art.svg",
+      "sound": "assets/audio/sfx/vehicles/motorcycle.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/motorcycle.m4a",
+        "bn": "assets/audio/bn/vehicles/motorcycle.m4a",
+        "ar": "assets/audio/ar/vehicles/motorcycle.m4a"
+      }
+    },
+    {
+      "id": "bicycle",
+      "group": "road",
+      "names": {
+        "en": "Bicycle",
+        "bn": "সাইকেল",
+        "ar": "دراجة"
+      },
+      "icon": "bicycle",
+      "photo": "assets/images/vehicles/bicycle_photo.png",
+      "illustration": "assets/images/vehicles/bicycle_art.svg",
+      "sound": "assets/audio/sfx/vehicles/bicycle.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/bicycle.m4a",
+        "bn": "assets/audio/bn/vehicles/bicycle.m4a",
+        "ar": "assets/audio/ar/vehicles/bicycle.m4a"
+      }
+    },
+    {
+      "id": "scooter",
+      "group": "road",
+      "names": {
+        "en": "Scooter",
+        "bn": "স্কুটার",
+        "ar": "سكوتر"
+      },
+      "icon": "scooter",
+      "photo": "assets/images/vehicles/scooter_photo.png",
+      "illustration": "assets/images/vehicles/scooter_art.svg",
+      "sound": "assets/audio/sfx/vehicles/scooter.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/scooter.m4a",
+        "bn": "assets/audio/bn/vehicles/scooter.m4a",
+        "ar": "assets/audio/ar/vehicles/scooter.m4a"
+      }
+    },
+    {
+      "id": "truck",
+      "group": "road",
+      "names": {
+        "en": "Truck",
+        "bn": "ট্রাক",
+        "ar": "شاحنة"
+      },
+      "icon": "truck",
+      "photo": "assets/images/vehicles/truck_photo.png",
+      "illustration": "assets/images/vehicles/truck_art.svg",
+      "sound": "assets/audio/sfx/vehicles/truck.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/truck.m4a",
+        "bn": "assets/audio/bn/vehicles/truck.m4a",
+        "ar": "assets/audio/ar/vehicles/truck.m4a"
+      }
+    },
+    {
+      "id": "van",
+      "group": "road",
+      "names": {
+        "en": "Van",
+        "bn": "ভ্যান",
+        "ar": "شاحنة صغيرة"
+      },
+      "icon": "van",
+      "photo": "assets/images/vehicles/van_photo.png",
+      "illustration": "assets/images/vehicles/van_art.svg",
+      "sound": "assets/audio/sfx/vehicles/van.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/van.m4a",
+        "bn": "assets/audio/bn/vehicles/van.m4a",
+        "ar": "assets/audio/ar/vehicles/van.m4a"
+      }
+    },
+    {
+      "id": "airplane",
+      "group": "air",
+      "names": {
+        "en": "Airplane",
+        "bn": "উড়োজাহাজ",
+        "ar": "طائرة"
+      },
+      "icon": "airplane",
+      "photo": "assets/images/vehicles/airplane_photo.png",
+      "illustration": "assets/images/vehicles/airplane_art.svg",
+      "sound": "assets/audio/sfx/vehicles/airplane.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/airplane.m4a",
+        "bn": "assets/audio/bn/vehicles/airplane.m4a",
+        "ar": "assets/audio/ar/vehicles/airplane.m4a"
+      }
+    },
+    {
+      "id": "helicopter",
+      "group": "air",
+      "names": {
+        "en": "Helicopter",
+        "bn": "হেলিকপ্টার",
+        "ar": "مروحية"
+      },
+      "icon": "helicopter",
+      "photo": "assets/images/vehicles/helicopter_photo.png",
+      "illustration": "assets/images/vehicles/helicopter_art.svg",
+      "sound": "assets/audio/sfx/vehicles/helicopter.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/helicopter.m4a",
+        "bn": "assets/audio/bn/vehicles/helicopter.m4a",
+        "ar": "assets/audio/ar/vehicles/helicopter.m4a"
+      }
+    },
+    {
+      "id": "rocket",
+      "group": "air",
+      "names": {
+        "en": "Rocket",
+        "bn": "রকেট",
+        "ar": "صاروخ"
+      },
+      "icon": "rocket",
+      "photo": "assets/images/vehicles/rocket_photo.png",
+      "illustration": "assets/images/vehicles/rocket_art.svg",
+      "sound": "assets/audio/sfx/vehicles/rocket.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/rocket.m4a",
+        "bn": "assets/audio/bn/vehicles/rocket.m4a",
+        "ar": "assets/audio/ar/vehicles/rocket.m4a"
+      }
+    },
+    {
+      "id": "hot_air_balloon",
+      "group": "air",
+      "names": {
+        "en": "Hot Air Balloon",
+        "bn": "গরম বাতাসের বেলুন",
+        "ar": "منطاد"
+      },
+      "icon": "balloon",
+      "photo": "assets/images/vehicles/hot_air_balloon_photo.png",
+      "illustration": "assets/images/vehicles/hot_air_balloon_art.svg",
+      "sound": "assets/audio/sfx/vehicles/hot_air_balloon.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/hot_air_balloon.m4a",
+        "bn": "assets/audio/bn/vehicles/hot_air_balloon.m4a",
+        "ar": "assets/audio/ar/vehicles/hot_air_balloon.m4a"
+      }
+    },
+    {
+      "id": "boat",
+      "group": "water",
+      "names": {
+        "en": "Boat",
+        "bn": "নৌকা",
+        "ar": "قارب"
+      },
+      "icon": "boat",
+      "photo": "assets/images/vehicles/boat_photo.png",
+      "illustration": "assets/images/vehicles/boat_art.svg",
+      "sound": "assets/audio/sfx/vehicles/boat.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/boat.m4a",
+        "bn": "assets/audio/bn/vehicles/boat.m4a",
+        "ar": "assets/audio/ar/vehicles/boat.m4a"
+      }
+    },
+    {
+      "id": "ship",
+      "group": "water",
+      "names": {
+        "en": "Ship",
+        "bn": "জাহাজ",
+        "ar": "سفينة"
+      },
+      "icon": "ship",
+      "photo": "assets/images/vehicles/ship_photo.png",
+      "illustration": "assets/images/vehicles/ship_art.svg",
+      "sound": "assets/audio/sfx/vehicles/ship.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/ship.m4a",
+        "bn": "assets/audio/bn/vehicles/ship.m4a",
+        "ar": "assets/audio/ar/vehicles/ship.m4a"
+      }
+    },
+    {
+      "id": "sailboat",
+      "group": "water",
+      "names": {
+        "en": "Sailboat",
+        "bn": "পালতোলা নৌকা",
+        "ar": "مركب شراعي"
+      },
+      "icon": "sailboat",
+      "photo": "assets/images/vehicles/sailboat_photo.png",
+      "illustration": "assets/images/vehicles/sailboat_art.svg",
+      "sound": "assets/audio/sfx/vehicles/sailboat.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/sailboat.m4a",
+        "bn": "assets/audio/bn/vehicles/sailboat.m4a",
+        "ar": "assets/audio/ar/vehicles/sailboat.m4a"
+      }
+    },
+    {
+      "id": "submarine",
+      "group": "water",
+      "names": {
+        "en": "Submarine",
+        "bn": "ডুবোজাহাজ",
+        "ar": "غواصة"
+      },
+      "icon": "submarine",
+      "photo": "assets/images/vehicles/submarine_photo.png",
+      "illustration": "assets/images/vehicles/submarine_art.svg",
+      "sound": "assets/audio/sfx/vehicles/submarine.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/submarine.m4a",
+        "bn": "assets/audio/bn/vehicles/submarine.m4a",
+        "ar": "assets/audio/ar/vehicles/submarine.m4a"
+      }
+    },
+    {
+      "id": "ferry",
+      "group": "water",
+      "names": {
+        "en": "Ferry",
+        "bn": "ফেরি",
+        "ar": "عبّارة"
+      },
+      "icon": "ferry",
+      "photo": "assets/images/vehicles/ferry_photo.png",
+      "illustration": "assets/images/vehicles/ferry_art.svg",
+      "sound": "assets/audio/sfx/vehicles/ferry.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/ferry.m4a",
+        "bn": "assets/audio/bn/vehicles/ferry.m4a",
+        "ar": "assets/audio/ar/vehicles/ferry.m4a"
+      }
+    },
+    {
+      "id": "train",
+      "group": "rail",
+      "names": {
+        "en": "Train",
+        "bn": "ট্রেন",
+        "ar": "قطار"
+      },
+      "icon": "train",
+      "photo": "assets/images/vehicles/train_photo.png",
+      "illustration": "assets/images/vehicles/train_art.svg",
+      "sound": "assets/audio/sfx/vehicles/train.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/train.m4a",
+        "bn": "assets/audio/bn/vehicles/train.m4a",
+        "ar": "assets/audio/ar/vehicles/train.m4a"
+      }
+    },
+    {
+      "id": "metro",
+      "group": "rail",
+      "names": {
+        "en": "Metro",
+        "bn": "মেট্রো",
+        "ar": "مترو"
+      },
+      "icon": "metro",
+      "photo": "assets/images/vehicles/metro_photo.png",
+      "illustration": "assets/images/vehicles/metro_art.svg",
+      "sound": "assets/audio/sfx/vehicles/metro.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/metro.m4a",
+        "bn": "assets/audio/bn/vehicles/metro.m4a",
+        "ar": "assets/audio/ar/vehicles/metro.m4a"
+      }
+    },
+    {
+      "id": "tram",
+      "group": "rail",
+      "names": {
+        "en": "Tram",
+        "bn": "ট্রাম",
+        "ar": "ترام"
+      },
+      "icon": "tram",
+      "photo": "assets/images/vehicles/tram_photo.png",
+      "illustration": "assets/images/vehicles/tram_art.svg",
+      "sound": "assets/audio/sfx/vehicles/tram.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/tram.m4a",
+        "bn": "assets/audio/bn/vehicles/tram.m4a",
+        "ar": "assets/audio/ar/vehicles/tram.m4a"
+      }
+    },
+    {
+      "id": "tractor",
+      "group": "work",
+      "names": {
+        "en": "Tractor",
+        "bn": "ট্রাক্টর",
+        "ar": "جرار"
+      },
+      "icon": "tractor",
+      "photo": "assets/images/vehicles/tractor_photo.png",
+      "illustration": "assets/images/vehicles/tractor_art.svg",
+      "sound": "assets/audio/sfx/vehicles/tractor.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/tractor.m4a",
+        "bn": "assets/audio/bn/vehicles/tractor.m4a",
+        "ar": "assets/audio/ar/vehicles/tractor.m4a"
+      }
+    },
+    {
+      "id": "excavator",
+      "group": "work",
+      "names": {
+        "en": "Excavator",
+        "bn": "এক্সকাভেটর",
+        "ar": "حفارة"
+      },
+      "icon": "excavator",
+      "photo": "assets/images/vehicles/excavator_photo.png",
+      "illustration": "assets/images/vehicles/excavator_art.svg",
+      "sound": "assets/audio/sfx/vehicles/excavator.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/excavator.m4a",
+        "bn": "assets/audio/bn/vehicles/excavator.m4a",
+        "ar": "assets/audio/ar/vehicles/excavator.m4a"
+      }
+    },
+    {
+      "id": "bulldozer",
+      "group": "work",
+      "names": {
+        "en": "Bulldozer",
+        "bn": "বুলডোজার",
+        "ar": "جرافة"
+      },
+      "icon": "bulldozer",
+      "photo": "assets/images/vehicles/bulldozer_photo.png",
+      "illustration": "assets/images/vehicles/bulldozer_art.svg",
+      "sound": "assets/audio/sfx/vehicles/bulldozer.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/bulldozer.m4a",
+        "bn": "assets/audio/bn/vehicles/bulldozer.m4a",
+        "ar": "assets/audio/ar/vehicles/bulldozer.m4a"
+      }
+    },
+    {
+      "id": "crane",
+      "group": "work",
+      "names": {
+        "en": "Crane",
+        "bn": "ক্রেন",
+        "ar": "رافعة"
+      },
+      "icon": "crane",
+      "photo": "assets/images/vehicles/crane_photo.png",
+      "illustration": "assets/images/vehicles/crane_art.svg",
+      "sound": "assets/audio/sfx/vehicles/crane.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/crane.m4a",
+        "bn": "assets/audio/bn/vehicles/crane.m4a",
+        "ar": "assets/audio/ar/vehicles/crane.m4a"
+      }
+    },
+    {
+      "id": "garbage_truck",
+      "group": "work",
+      "names": {
+        "en": "Garbage Truck",
+        "bn": "ময়লার গাড়ি",
+        "ar": "شاحنة قمامة"
+      },
+      "icon": "garbage_truck",
+      "photo": "assets/images/vehicles/garbage_truck_photo.png",
+      "illustration": "assets/images/vehicles/garbage_truck_art.svg",
+      "sound": "assets/audio/sfx/vehicles/garbage_truck.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/garbage_truck.m4a",
+        "bn": "assets/audio/bn/vehicles/garbage_truck.m4a",
+        "ar": "assets/audio/ar/vehicles/garbage_truck.m4a"
+      }
+    },
+    {
+      "id": "cement_mixer",
+      "group": "work",
+      "names": {
+        "en": "Cement Mixer",
+        "bn": "সিমেন্ট মিক্সার",
+        "ar": "خلاطة خرسانة"
+      },
+      "icon": "cement_mixer",
+      "photo": "assets/images/vehicles/cement_mixer_photo.png",
+      "illustration": "assets/images/vehicles/cement_mixer_art.svg",
+      "sound": "assets/audio/sfx/vehicles/cement_mixer.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/cement_mixer.m4a",
+        "bn": "assets/audio/bn/vehicles/cement_mixer.m4a",
+        "ar": "assets/audio/ar/vehicles/cement_mixer.m4a"
+      }
+    },
+    {
+      "id": "ambulance",
+      "group": "emergency",
+      "names": {
+        "en": "Ambulance",
+        "bn": "অ্যাম্বুলেন্স",
+        "ar": "سيارة إسعاف"
+      },
+      "icon": "ambulance",
+      "photo": "assets/images/vehicles/ambulance_photo.png",
+      "illustration": "assets/images/vehicles/ambulance_art.svg",
+      "sound": "assets/audio/sfx/vehicles/ambulance.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/ambulance.m4a",
+        "bn": "assets/audio/bn/vehicles/ambulance.m4a",
+        "ar": "assets/audio/ar/vehicles/ambulance.m4a"
+      }
+    },
+    {
+      "id": "fire_truck",
+      "group": "emergency",
+      "names": {
+        "en": "Fire Truck",
+        "bn": "দমকল গাড়ি",
+        "ar": "سيارة إطفاء"
+      },
+      "icon": "fire_truck",
+      "photo": "assets/images/vehicles/fire_truck_photo.png",
+      "illustration": "assets/images/vehicles/fire_truck_art.svg",
+      "sound": "assets/audio/sfx/vehicles/fire_truck.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/fire_truck.m4a",
+        "bn": "assets/audio/bn/vehicles/fire_truck.m4a",
+        "ar": "assets/audio/ar/vehicles/fire_truck.m4a"
+      }
+    },
+    {
+      "id": "police_car",
+      "group": "emergency",
+      "names": {
+        "en": "Police Car",
+        "bn": "পুলিশের গাড়ি",
+        "ar": "سيارة شرطة"
+      },
+      "icon": "police_car",
+      "photo": "assets/images/vehicles/police_car_photo.png",
+      "illustration": "assets/images/vehicles/police_car_art.svg",
+      "sound": "assets/audio/sfx/vehicles/police_car.m4a",
+      "nameAudio": {
+        "en": "assets/audio/en/vehicles/police_car.m4a",
+        "bn": "assets/audio/bn/vehicles/police_car.m4a",
+        "ar": "assets/audio/ar/vehicles/police_car.m4a"
+      }
+    }
+  ]
+}
